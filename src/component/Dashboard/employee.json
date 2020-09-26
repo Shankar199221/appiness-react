@@ -1,0 +1,26 @@
+[
+    {
+        "label":"No",
+        "value":"id"
+    },
+    {
+        "label":"Name",
+        "value":"name"
+    },
+    {
+        "label":"Age",
+        "value":"age"
+    },
+    {
+        "label":"Gender",
+        "value":"gender"
+    },
+    {
+        "label":"Email",
+        "value":"email"
+    },
+    {
+        "label":"PhoneNum",
+        "value":"phonenum"
+    }
+]

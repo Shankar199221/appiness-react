@@ -1,0 +1,57 @@
+{
+    "users":[
+        {
+          "id": 1,
+          "name":"test1",
+          "age":"11",
+          "gender":"male",
+          "email":"test1@gmail.com",
+          "phonenum":"9440612501"
+        },
+        {
+          "id": 2,
+          "name":"test2",
+          "age":"15",
+          "gender":"male",
+          "email":"test2@gmail.com",
+          "phonenum":"9440612502"
+        },
+        {
+          "id": 3,
+          "name":"test3",
+          "age":"41",
+          "gender":"male",
+          "email":"test3@gmail.com",
+          "phonenum":"9440612503"
+        },
+        {
+          "id": 4,
+          "name":"test4",
+          "age":"10",
+          "gender":"male",
+          "email":"test4@gmail.com",
+          "phonenum":"9440612507"
+        },
+        {
+          "id": 5,
+          "name":"test5",
+          "age":"51",
+          "gender":"male",
+          "email":"test5@gmail.com",
+          "phonenum":"9440612590"
+        },
+        {
+          "id": 6,
+          "name":"test6",
+          "age":"21",
+          "gender":"male",
+          "email":"test6@gmail.com",
+          "phonenum":"9440612589"
+        }
+      ],
+      "credentials":{
+          "user":"Hruday",
+          "username":"hruday@gmail.com",
+          "password":"hruday123"
+      }
+}

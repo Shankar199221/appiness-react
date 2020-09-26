@@ -1,0 +1,53 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    border: rgb(223, 247, 136) 2px double;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:1rem 3rem;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+.form__header {
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-style: italic;
+    
+    padding-bottom: 2rem;
+}
+.form__mail {
+    
+    display: flex;
+    /* margin: 5px; */
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.form__password {
+   
+    display: flex;
+    /* margin: 5px; */
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.form input {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.281);
+    background-color: rgba(160, 241, 221, 0.568);
+    margin-left: 5px;
+}
+.form input:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.226);
+    border-bottom: 2px solid black;
+}
+.form__errors {
+    color: red;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}

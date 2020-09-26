@@ -54,7 +54,7 @@ function Login() {
                    />
             </div> 
                <div className="form__errors">
-                 {emailerror ? <span >"Please enter volid email format"</span>: ''}
+                 {emailerror ? <span >Please enter valid email format</span>: ''}
                </div> 
          
                
@@ -66,11 +66,11 @@ function Login() {
                  name="password"  
                  onChange={(e)=>setPassword(e.target.value)} />
              </div>
-             <div className="form__errors"> {passworderror ? <span >" minimum 8 characters are Requied"</span>: ''}  </div> 
+             <div className="form__errors"> {passworderror ? <span > minimum 8 characters are Requied</span>: ''}  </div> 
             
             
             <button type="submit" className="btn btn-primary">Submit</button>
-            <div className="form__errors">{volidCr ? <span >"Please enter volid Credentials"</span>: ''} </div>
+            <div className="form__errors">{volidCr ? <span >Please enter valid Credentials</span>: ''} </div>
               
             </form>
   

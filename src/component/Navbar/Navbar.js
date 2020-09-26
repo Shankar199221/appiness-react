@@ -26,7 +26,7 @@ function Navbar() {
               <Link  to='/'><img src={logo} alt="no image" width="70rem" height="60rem" className="borderimg" /> </Link>
             </div>
          <div>
-          <h2>hi,{loginData.loginData.user}</h2>
+          <h2>Hi,{loginData.loginData.user}</h2>
            
           </div>
            

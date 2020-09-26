@@ -7,6 +7,7 @@ import {useHistory} from 'react-router-dom'
 import './index.css'
 import Navbar from '../Navbar/Navbar'
 import leftarrow from '../../images/left-arrow.svg'
+import EmployeeJson from './employee.json'
 
 function EmployeeData() {
     
@@ -37,30 +38,20 @@ function EmployeeData() {
                 <Navbar />
             </div>
             <div className="dashboard__back">
-                <button onClick={handleBack}><img src={leftarrow} alt="no image"  />Back</button> </div>
+                <button onClick={handleBack}><img src={leftarrow} alt="no image" width="20px" height="10px" /></button> </div>
            <div className="dashboard__table">
                <Table  className="table-striped  table-bordered table-dark table-dark">
                     <thead>
                         <tr>
-                            <th>#</th>
-                            <th>Name</th>
-                            <th>Age</th>
-                            <th>Gender</th>
-                            <th>Email</th>
-                            <th>PhoneNum</th>
+                    {EmployeeJson.map((item,i) => <th key={i}>{item.label}</th>)}
                         </tr>
                     </thead>
                     <tbody>
-                    {empData.employeeData &&  empData.employeeData.map((item)=>{
-                        return  <tr key={item.id}>
-                                    <td>{item.id}</td>
-                                    <td>{item.name}</td>
-                                    <td>{item.age}</td>
-                                    <td>{item.gender}</td>
-                                    <td>{item.email}</td>
-                                    <td>{item.phonenum}</td>
-                                </tr>
-                    }) 
+                    {empData.employeeData &&  empData.employeeData.map((item)=>(
+                        <tr key={item.id}>
+                          {EmployeeJson.map((label,i) => <td key={i}>{item[label.value]}</td>)}
+                       </tr>
+                    )) 
                     }
                                 
                     </tbody>

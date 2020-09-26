@@ -36,18 +36,18 @@
 .form input {
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 0.281);
-    background-color: rgba(160, 241, 221, 0.568);
+    background-color: rgba(194, 117, 238, 0.014);
     margin-left: 5px;
 }
 .form input:focus {
     outline: none;
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: rgba(194, 117, 238, 0.014);
     border-bottom: 2px solid black;
 }
 .form__errors {
-    color: red;
+    color: rgb(156, 21, 32);
     text-align: center;
     font-size: 0.8rem;
     padding-bottom: 5px;
-    text-transform: uppercase;
+    /* text-transform: capitalize; */
 }
